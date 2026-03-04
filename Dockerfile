@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV VAULT_VERSION=v1.21.2
+ENV VAULT_VERSION=v1.21.3
 
 # Update & install needed packages
 RUN apt-get update && \
